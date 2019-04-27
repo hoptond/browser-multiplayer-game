@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box; }
+
+canvas {
+  display: block; }
+
+.game-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
+
+.ui-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.ui-box {
+  position: absolute;
+  border: 1px solid black;
+  background-color: burlywood; }
+
+.ui-box-nobackground {
+  border: 0px solid black;
+  background-color: transparent; }
+
+.ui-input-text {
+  margin: 20px 0; }
+
+.ui-chatbox-message-list {
+  border-bottom: 1px solid black;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-wrap: break-word; }
+
+.hidden {
+  visibility: hidden; }
